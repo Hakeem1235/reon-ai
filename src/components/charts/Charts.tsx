@@ -141,7 +141,7 @@ export function TrafficPieChart({ data, height = 250 }: PieChartProps) {
                         borderRadius: '12px',
                         color: '#fff',
                     }}
-                    formatter={(value: number) => [`${value}%`, '']}
+                    formatter={(value: any) => [`${value}%`, '']}
                 />
             </PieChart>
         </ResponsiveContainer>

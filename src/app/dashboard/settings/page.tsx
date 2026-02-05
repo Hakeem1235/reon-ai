@@ -78,7 +78,7 @@ export default function SettingsPage() {
                             </h3>
                             <div className="space-y-4">
                                 <Input label="Workspace Name" defaultValue={workspace?.name || 'My Business'} />
-                                <Input label="Business Type" defaultValue={workspace?.businessType || 'E-commerce'} />
+                                <Input label="Business Type" defaultValue={workspace?.industry || 'E-commerce'} />
                                 <Input label="Website URL" defaultValue={workspace?.website || 'https://mystore.com'} />
                             </div>
                             <Button className="mt-6">Save Changes</Button>
